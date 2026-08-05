@@ -1038,7 +1038,7 @@
     "inventory.attributeshards.attribute-menu": "(?:\\(\\d+/\\d+\\) )?Attribute Menu",
     "inventory.attributeshards.bazaar.shards.inventory": "(?:\\(\\d+/\\d+\\) )?Oddities ➜ Shards",
     "inventory.attributeshards.captured.shard": "CAPTURE! You (?:caught an?|found) .+ and (?:gained|as a reward (?:he|she|they) gave you) (?:an?|(?\u003camount\u003e\\d+)x) (?\u003cshardName\u003e.+) Shard!",
-    "inventory.attributeshards.caught.shards.colorless": "You caught(?: [an]+)?(?: x(?\u003camount\u003e\\d+))? (?\u003cshardName\u003e.+) Shards?!",
+    "inventory.attributeshards.caught.shards.colorless": "You caught(?: (?:an?|a))?(?: x(?<amount>\d+))? (?<shardName>.+) Shards?!",
     "inventory.attributeshards.charmed.shard.colorless": "(?\u003ccharmType\u003eCHARM|SALT|NAGA) You charmed an? (?\u003cshardName\u003e.+) and captured (?:(?\u003camount\u003e\\d+) Shards from it|its Shard)\\.",
     "inventory.attributeshards.chat.and.more.colorless": "and (?\u003camount\u003e\\d+) more\\.\\.\\.",
     "inventory.attributeshards.chat.disabled.colorless": "(?\u003cattributeName\u003e.+) is now disabled!",
